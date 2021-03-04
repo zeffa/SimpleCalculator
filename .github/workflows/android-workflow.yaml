@@ -1,6 +1,5 @@
 name: Android CI Workflow
-on:
-  push: [ main ]
+on: [push]
 jobs:
   build-and-test:
     name: Build and run tests
